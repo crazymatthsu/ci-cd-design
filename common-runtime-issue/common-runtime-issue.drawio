@@ -1,0 +1,87 @@
+<mxfile host="Electron" pages="2">
+  <diagram id="v-BkhIIMONxP6gioK7Hs" name="Page-2">
+    <mxGraphModel dx="1094" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vl9O6TCuzHfGXJfLQhov-1" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;shadow=1;" value="&lt;b&gt;Internal Artifact Repository&lt;/b&gt;&lt;br&gt;(Nexus / Artifactory)&lt;br&gt;&lt;hr&gt;• Semantically Versioned Internal Jars&lt;br&gt;• Open-Source Proxied Jars (Kafka, log4j, MQ)" vertex="1">
+          <mxGeometry height="110" width="280" x="270" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vl9O6TCuzHfGXJfLQhov-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#000000;strokeWidth=2;dashed=1;" value="&lt;b&gt;Automated CI/CD Pipelines&lt;/b&gt;&lt;br&gt;Systematic, tested dependency version updates across 10 repos" vertex="1">
+          <mxGeometry height="50" width="460" x="180" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="vl9O6TCuzHfGXJfLQhov-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#000000;shadow=1;" value="&lt;b&gt;Project 1 Package&lt;/b&gt;&lt;br&gt;&lt;hr&gt;Local &lt;i&gt;/lib&lt;/i&gt; bundled&lt;br&gt;&lt;font color=&#39;#274e13&#39;&gt;• log4j v2.17&lt;br&gt;• Kafka v3.1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="160" x="40" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="vl9O6TCuzHfGXJfLQhov-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#000000;shadow=1;" value="&lt;b&gt;Project 2 Package&lt;/b&gt;&lt;br&gt;&lt;hr&gt;Local &lt;i&gt;/lib&lt;/i&gt; bundled&lt;br&gt;&lt;font color=&#39;#274e13&#39;&gt;• log4j v2.17&lt;br&gt;• JGroups v5.2&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="160" x="230" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="vl9O6TCuzHfGXJfLQhov-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#000000;shadow=1;" value="&lt;b&gt;Project 3 Package&lt;/b&gt;&lt;br&gt;&lt;hr&gt;Local &lt;i&gt;/lib&lt;/i&gt; bundled&lt;br&gt;&lt;font color=&#39;#274e13&#39;&gt;• MQ Client v9.2&lt;br&gt;• Greengrass v2.5&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="160" x="420" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="vl9O6TCuzHfGXJfLQhov-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#000000;shadow=1;" value="&lt;b&gt;Projects 4 - 10&lt;/b&gt;&lt;br&gt;&lt;hr&gt;Local &lt;i&gt;/lib&lt;/i&gt; bundled&lt;br&gt;&lt;font color=&#39;#274e13&#39;&gt;• Independent&lt;br&gt;  Semantic Jars&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="160" x="610" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="vl9O6TCuzHfGXJfLQhov-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=left;shadow=1;" value="&lt;b&gt;KEY ARCHITECTURAL BENEFITS:&lt;/b&gt;&lt;br&gt;1. Complete Version Isolation (No cross-project breaking changes)&lt;br&gt;2. Reproducible Builds (Identical binary across all environments)&lt;br&gt;3. Zero Runtime Classpath Surprises" vertex="1">
+          <mxGeometry height="70" width="460" x="180" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="vl9O6TCuzHfGXJfLQhov-8" edge="1" parent="1" source="vl9O6TCuzHfGXJfLQhov-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=block;" target="vl9O6TCuzHfGXJfLQhov-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vl9O6TCuzHfGXJfLQhov-9" edge="1" parent="1" source="vl9O6TCuzHfGXJfLQhov-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=block;" target="vl9O6TCuzHfGXJfLQhov-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vl9O6TCuzHfGXJfLQhov-10" edge="1" parent="1" source="vl9O6TCuzHfGXJfLQhov-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=block;" target="vl9O6TCuzHfGXJfLQhov-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vl9O6TCuzHfGXJfLQhov-11" edge="1" parent="1" source="vl9O6TCuzHfGXJfLQhov-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=block;" target="vl9O6TCuzHfGXJfLQhov-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vl9O6TCuzHfGXJfLQhov-12" edge="1" parent="1" source="vl9O6TCuzHfGXJfLQhov-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;endArrow=block;" target="vl9O6TCuzHfGXJfLQhov-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VhS3uYxHkaSSkfmmJ1Fw" name="Page-3">
+    <mxGraphModel dx="1094" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eyJX-Sk-QfhwJdGEuf3C-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#000000;align=center;verticalAlign=middle;shadow=1;" value="&lt;b&gt;Common Runtime Library (Maven Built)&lt;/b&gt;&lt;br&gt;&lt;hr&gt;Shared OSS Jars:&lt;br&gt;• Apache / log4j&lt;br&gt;• Kafka / MQ&lt;br&gt;• JGroups / Greengrass&lt;br&gt;&lt;i&gt;No internal Java code&lt;/i&gt;" vertex="1">
+          <mxGeometry height="130" width="260" x="250" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="eyJX-Sk-QfhwJdGEuf3C-2" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#000000;shadow=1;" value="&lt;b&gt;CRITICAL ISSUE:&lt;/b&gt;&lt;br&gt;Classpath modified at startup.&lt;br&gt;Updates cause unexpected&lt;br&gt;runtime surprises in production!" vertex="1">
+          <mxGeometry height="100" width="200" x="560" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="eyJX-Sk-QfhwJdGEuf3C-3" edge="1" parent="1" source="eyJX-Sk-QfhwJdGEuf3C-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d6b656;dashed=1;endArrow=none;" target="eyJX-Sk-QfhwJdGEuf3C-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eyJX-Sk-QfhwJdGEuf3C-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;" value="&lt;b&gt;Project 1 Repo&lt;/b&gt;&lt;br&gt;Missing local /lib" vertex="1">
+          <mxGeometry height="60" width="140" x="50" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eyJX-Sk-QfhwJdGEuf3C-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;" value="&lt;b&gt;Project 2 Repo&lt;/b&gt;&lt;br&gt;Missing local /lib" vertex="1">
+          <mxGeometry height="60" width="140" x="240" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eyJX-Sk-QfhwJdGEuf3C-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;" value="&lt;b&gt;Project 3 Repo&lt;/b&gt;&lt;br&gt;Missing local /lib" vertex="1">
+          <mxGeometry height="60" width="140" x="450" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eyJX-Sk-QfhwJdGEuf3C-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;" value="&lt;b&gt;Projects 4 - 10&lt;/b&gt;&lt;br&gt;Missing local /lib" vertex="1">
+          <mxGeometry height="60" width="140" x="620" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eyJX-Sk-QfhwJdGEuf3C-8" edge="1" parent="1" source="eyJX-Sk-QfhwJdGEuf3C-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;fontColor=#b85450;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="eyJX-Sk-QfhwJdGEuf3C-1" value="Startup Script&lt;br&gt;Classpath Inclusion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eyJX-Sk-QfhwJdGEuf3C-9" edge="1" parent="1" source="eyJX-Sk-QfhwJdGEuf3C-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;" target="eyJX-Sk-QfhwJdGEuf3C-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eyJX-Sk-QfhwJdGEuf3C-10" edge="1" parent="1" source="eyJX-Sk-QfhwJdGEuf3C-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;" target="eyJX-Sk-QfhwJdGEuf3C-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eyJX-Sk-QfhwJdGEuf3C-11" edge="1" parent="1" source="eyJX-Sk-QfhwJdGEuf3C-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;exitX=0.557;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" target="eyJX-Sk-QfhwJdGEuf3C-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
